@@ -74,7 +74,6 @@
     background-color: rgb(240, 240, 240);
     height: 33%;
     padding: 10px 40px;
-
   }
 
   .form-form {
@@ -128,6 +127,9 @@
     background-color: rgb(240, 240, 240);
     height: 33%;
     padding: 10px 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding-top: 1rem;
   }
 
   form {
@@ -143,4 +145,9 @@
     border: 0;
     border-radius: 0.5rem;
     font-weight: bold;
+  }
+
+  #submit:hover {
+    background-color: rgb(79, 79, 237);
+    cursor: pointer;
   }
