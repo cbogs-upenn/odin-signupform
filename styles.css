@@ -54,9 +54,16 @@
     font-size: 60px;
     color: white;
     text-align: center;
+    margin-bottom: -105px;
 
   }
 
   .form-container {
     padding: 0 30px;
+  }
+
+  .container p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
   }
