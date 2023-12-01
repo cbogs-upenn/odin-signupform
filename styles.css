@@ -59,11 +59,33 @@
   }
 
   .form-container {
-    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    gap: 20px;
   }
 
   .container p {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 24px;
     font-weight: bold;
+  }
+
+  .form-pitch {
+    flex-grow: 20;
+    background-color: rgb(240, 240, 240);
+    height: 33%;
+    padding: 10px 40px;
+
+  }
+
+  .form-form {
+    height: 33%;
+    padding: 10px 40px;
+
+  }
+
+  .form-createaccount {
+    background-color: rgb(240, 240, 240);
+    height: 33%;
+    padding: 10px 40px;
   }
