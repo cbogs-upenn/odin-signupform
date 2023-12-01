@@ -84,6 +84,8 @@
     font-weight: bold;
     height: 33%;
     padding: 10px 40px;
+    min-height: 50%;
+
   }
 
   #form-firstname {
