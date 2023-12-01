@@ -78,13 +78,21 @@
   }
 
   .form-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-form-form {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     height: 33%;
     padding: 10px 40px;
     min-height: 50%;
+    position: relative;
+    top: -100px;
 
   }
 
