@@ -79,7 +79,7 @@
 
   .form-form {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
   }
 
@@ -123,6 +123,7 @@
     width: 100%;
   }
 
+
   .form-createaccount {
     background-color: rgb(240, 240, 240);
     height: 33%;
@@ -131,4 +132,15 @@
 
   form {
     width: 100%:
+  }
+
+
+  #submit {
+    margin-left: 40px;
+    color: white;
+    background-color: rgb(38, 38, 157);
+    padding: 20px 40px;
+    border: 0;
+    border-radius: 0.5rem;
+    font-weight: bold;
   }
