@@ -28,8 +28,7 @@
   .hero-image-container {
     display: flex;
     flex-direction: column;
-    flex: 3;
-    max-width: 25vw;
+    max-width: 33vw;
   }
 
   .hero-image {
@@ -37,7 +36,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
-    width: 25vw;
+    width: 33vw;
     border-top-left-radius: 0.5em;
     border-bottom-left-radius: 0.5em;
   }
@@ -48,7 +47,7 @@
     height: auto;
     background-color: rgba(0, 0, 0,.45);
     position: relative;
-    top: -20vh;
+    top: -65%;
     padding: 10px;
     z-index: 1;
     font-family: 'Smooch', cursive;
