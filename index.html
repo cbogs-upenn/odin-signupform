@@ -22,8 +22,8 @@
             </div>
             <div class="form-form">
                 <div class="form-form-form">
-                <form action="get">
-                    <p>Be of the Oak!</p>
+                <form action="">
+                    <p>Join the Oak!</p>
                     <ul>
                         <li id="form-firstname"><label for="firstname">FIRST NAME</label><br />
                             <input type="text" id="firstname" name="firstname"><br />
@@ -32,16 +32,18 @@
                             <input type="text" id="lastname" name="lastname">
                         </li>
                         <li><label for="email">EMAIL</label><br />
-                            <input type="email" id="email" name="email">
+                            <input type="email" id="email" name="email" placeholder="email@example.com">
                         </li>
-                        <li><label for="phone">PHONE NUMBER</label><br />
-                            <input type="number" id="phone" name="phone">
+                        <li><label for="phone">PHONE NUMBER</label><br /> 
+                            <input type="tel" id="phone" name="phone" placeholder="212-555-1234">
                         </li>
                         <li><label for="password">PASSWORD</label><br />
-                            <input type="password" id="password" name="password">
+                            <input type="password" id="password" name="password" minlength="6">
+                            <span></span>
                         </li>
                         <li><label for="confirm-password">CONFIRM PASSWORD</label><br />
-                            <input type="password" id="confirm-password" name="confirm-password">
+                            <input type="password" id="confirm-password" name="confirm-password" minlength="6">
+                            <span></span>
                         </li>
                     </ul>
                     <input type="submit" id="submit" name="submit" value="Create Account">
