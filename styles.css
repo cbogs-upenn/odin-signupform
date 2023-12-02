@@ -133,7 +133,7 @@
   }
 
   form {
-    width: 100%:
+    width: 100%;
   }
 
 
@@ -155,11 +155,6 @@
   input {
     border-radius: .25rem;
     padding: 10px;
-  }
-
-  input:valid {
-
-
   }
 
   input:invalid {
